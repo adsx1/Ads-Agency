@@ -18,13 +18,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
     joinBtn.addEventListener("click", function (e) {
 
-        e.preventDefault();
+    e.preventDefault();
 
-        // Apna Telegram / WhatsApp / Website Link yaha lagana
+    fbq('track', 'Lead');
+
+    setTimeout(function () {
         window.location.href = "https://t.me/+PrLuWP-LxPk2NjI1";
+    }, 500);
 
-    });
-
+});
 
 
 
@@ -121,27 +123,27 @@ const popupImg = document.getElementById("popupImage");
 
 const closeBtn = document.querySelector(".close-popup");
 
-document.querySelectorAll(".proof-card img").forEach(img=>{
+document.querySelectorAll(".proof-card img").forEach(img => {
 
-    img.addEventListener("click",()=>{
+    img.addEventListener("click", () => {
 
         popup.classList.add("active");
 
-        popupImg.src=img.src;
+        popupImg.src = img.src;
 
     });
 
 });
 
-closeBtn.addEventListener("click",()=>{
+closeBtn.addEventListener("click", () => {
 
     popup.classList.remove("active");
 
 });
 
-popup.addEventListener("click",(e)=>{
+popup.addEventListener("click", (e) => {
 
-    if(e.target===popup){
+    if (e.target === popup) {
 
         popup.classList.remove("active");
 
@@ -149,9 +151,9 @@ popup.addEventListener("click",(e)=>{
 
 });
 
-document.addEventListener("keydown",(e)=>{
+document.addEventListener("keydown", (e) => {
 
-    if(e.key==="Escape"){
+    if (e.key === "Escape") {
 
         popup.classList.remove("active");
 
