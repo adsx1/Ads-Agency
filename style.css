@@ -361,7 +361,7 @@ SEE ADS PROOF
 
     font-weight:800;
 
-    color:#111;
+    color: #FFD000;
 
     margin-bottom:30px;
 
@@ -901,5 +901,44 @@ END
     cursor:pointer;
 
     user-select:none;
+
+}
+.disclaimer{
+
+    width:100%;
+
+    max-width:900px;
+
+    margin:10px auto 20px;
+
+    padding:20px 25px;
+
+    background:#f8f8f8;
+
+    border:1px solid #e5e5e5;
+
+    border-radius:15px;
+
+}
+
+.disclaimer h3{
+
+    font-size:20px;
+
+    font-weight:700;
+
+    color:#111;
+
+    margin-bottom:10px;
+
+}
+
+.disclaimer p{
+
+    font-size:14px;
+
+    line-height:1.8;
+
+    color:#555;
 
 }
