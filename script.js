@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
         e.preventDefault();
 
         // Apna Telegram / WhatsApp / Website Link yaha lagana
-        window.location.href = "https://t.me/yourchannel";
+        window.location.href = "https://t.me/+PrLuWP-LxPk2NjI1";
 
     });
 
