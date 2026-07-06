@@ -13,20 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     /*==================================
       BUTTON CLICK
     ==================================*/
-const joinBtn = document.querySelector(".join-btn");
-joinBtn.addEventListener("click", function (e) {
 
-    e.preventDefault();
-
-    fbq('track', 'Lead');
-
-    fbq('trackCustom', 'TelegramClick');
-
-    setTimeout(() => {
-        window.location.href = "https://t.me/+PrLuWP-LxPk2NjI1";
-    }, 200);
-
-});
 
  /*==================================
       BUTTON RIPPLE
